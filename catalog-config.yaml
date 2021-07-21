@@ -1,0 +1,63 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: product-platform-internal-audit-trail
+  description: Audit trail events
+spec:
+  type: grpc
+  lifecycle: production
+  system: product-platform
+  owner: "product-platform-team"
+  definition: |
+    syntax = "proto3";
+    package product.audittrail.v1;
+    option csharp_namespace = "Product.Audittrail.V1";
+    option go_package = "audittrailv1";
+    option java_multiple_files = true;
+    option java_outer_classname = "AuditTrailApiProto";
+    option java_package = "com.product.audittrail.v1";
+    option objc_class_prefix = "PAX";
+    option php_namespace = "Product\\Audittrail\\V1";
+    option ruby_package = "Gelato::Product::AudittrailV1";
+    import "google/protobuf/timestamp.proto";
+    service AuditTrailAPI {
+      rpc GetEvents(GetEventsRequest) returns (GetEventsResponse);
+      rpc GetEventDomains(GetEventDomainsRequest) returns (GetEventDomainsResponse);
+    }
+    message GetEventsRequest {
+      Filter filter = 1;
+      uint64 offset = 2;
+      uint64 limit = 3;
+      Order order = 4;
+      message Filter {
+        repeated string domains = 1;
+        repeated string events = 2;
+        google.protobuf.Timestamp from_time = 3;
+        google.protobuf.Timestamp till_time = 4;
+        string payload_fragment = 5;
+      }
+      message Order {
+        bool desc = 1;
+      }
+    }
+    message GetEventsResponse {
+      repeated Event events = 1;
+      uint64 total = 2;
+      message Event {
+        string id = 1;
+        string domain = 2;
+        string event = 3;
+        google.protobuf.Timestamp occurred_time = 4;
+        string serialized_payload = 5;
+        string serialized_meta = 6;
+      }
+    }
+    message GetEventDomainsRequest {}
+    message GetEventDomainsResponse {
+      repeated EventDomain event_domains = 1;
+      message EventDomain {
+        string id = 1;
+        string description = 2;
+      }
+    }
