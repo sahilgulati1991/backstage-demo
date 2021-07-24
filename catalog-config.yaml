@@ -2,6 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: test
+  description: This is the description for test
   annotations:
     circleci.com/project-slug: github/Sahil-Gulati/backstage-demo
 spec:
