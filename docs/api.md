@@ -6,7 +6,8 @@ GET /api/v1/packages
     "some_id"    
   ],
   "trackingCodes: [
-    "some_code"
+    "some_code",
+    "some_code2"
   ]
 }
 ```
