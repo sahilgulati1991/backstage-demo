@@ -1,4 +1,5 @@
-GET /api/v1/packages
+> GET /api/v1/packages
+
 
 ```js
 {
