@@ -6,7 +6,7 @@ metadata:
   description: This is the description for test
   annotations:
     circleci.com/project-slug: github/sahil-gulati/backstage-demo
-    github.com/project-slug: sahil-gulati/backstage-demo
+    github.com/project-slug: mkdocs/mkdocs
     opsgenie.com/component-selector: 'tag:"component:test"'
     backstage.io/techdocs-ref: url:https://github.com/mkdocs/mkdocs/tree/master/
 spec:
