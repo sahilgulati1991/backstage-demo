@@ -1,10 +1,8 @@
-site_name: 'example-docs'
+site_name: 'Component documentation'
 
 nav:
   - Home: index.md
   - API: api.md
-  - Indent:
-      New: index.md
 
 plugins:
   - techdocs-core
