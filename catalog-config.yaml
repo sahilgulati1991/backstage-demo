@@ -7,6 +7,7 @@ metadata:
   annotations:
     circleci.com/project-slug: github/sahil-gulati/backstage-demo
     opsgenie.com/component-selector: 'tag:"component:test"'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
