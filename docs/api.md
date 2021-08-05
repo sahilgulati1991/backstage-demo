@@ -1,6 +1,6 @@
 GET /api/v1/packages
 
-```json
+```js
 {
   "packageIds": [
     "some_id"    
