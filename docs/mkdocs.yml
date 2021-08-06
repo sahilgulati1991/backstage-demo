@@ -6,3 +6,6 @@ nav:
 plugins:
   - techdocs-core
   - search
+  
+edit_uri: edit/main/docs/
+repo_url: https://github.com/Sahil-Gulati/backstage-demo
