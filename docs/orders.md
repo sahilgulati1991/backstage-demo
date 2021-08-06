@@ -9,7 +9,8 @@
 ```js
 {
   "orderIds": [
-    "order_id"    
+    "order_id1",
+    "order_id2"
   ]
 }
 ```
