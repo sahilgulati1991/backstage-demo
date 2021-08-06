@@ -1,4 +1,4 @@
-## List of orders made
+## List of orders
 ##### GET /api/v1/orders
 
 ###### Headers:
