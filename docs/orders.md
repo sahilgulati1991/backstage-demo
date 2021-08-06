@@ -1,5 +1,5 @@
 ## List orders
-##### GET /api/v1/orders
+##### GET /api/v1/orders/list
 
 ###### Headers:
 *Content-Type*: application/json<br>
