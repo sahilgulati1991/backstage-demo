@@ -1,10 +1,3 @@
 # Hello world
 
-This is a basic example of documentation.
-
-```json
-{
-  "name": "Sahil Gulati"
-}
-
-```
+This is a basic example of documentation using TechDocs plugin of Backstage
