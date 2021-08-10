@@ -1,7 +1,7 @@
 site_name: 'Component documentation'
 
 nav:
-  - Home: hello.md
+  - Home: index.md
   - API:
      Packages: packages.md
      Orders: orders.md
