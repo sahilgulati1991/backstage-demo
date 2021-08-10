@@ -2,4 +2,4 @@
 
 :(
 
-![Screenshot](images/smily.jpg)
+![Screenshot](../images/smily.jpg)
