@@ -3,8 +3,10 @@ site_name: 'Component documentation'
 nav:
   - Home: hello.md
   - API:
-      Packages: packages.md
-      Orders: orders.md
+     Packages: packages.md
+     Orders: orders.md
+     Integrations:
+      Github: integrations/github.md
   
 
 plugins:
