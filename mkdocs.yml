@@ -6,7 +6,8 @@ nav:
      Packages: packages.md
      Orders: orders.md
   - Integrations:
-     Github: integration/github.md
+      Github: integration/github.md
+      
   
 
 plugins:
