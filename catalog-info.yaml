@@ -13,3 +13,17 @@ spec:
   type: service
   lifecycle: production
   owner: sahil.gulati1991@outlook.com
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fourkeys
+  description: Gelato fourkeys
+  annotations:
+    github.com/project-slug: gelatoas/fourkeys
+    backstage.io/techdocs-ref: url:https://github.com/gelatoas/fourkeys/tree/main/feat/GDP-29-techdocs-plugin-integration
+spec:
+  type: service
+  lifecycle: production
+  owner: sahil.gulati@gelato.com
