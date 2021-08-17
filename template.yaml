@@ -53,4 +53,3 @@ spec:
 
  output:
     remoteUrl: '{{ steps.publish.output.remoteUrl }}'
-    
