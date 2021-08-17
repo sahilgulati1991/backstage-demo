@@ -52,5 +52,5 @@ spec:
         repoUrl: '{{ parameters.repoUrl }}'
 
   output:
-    remoteUrl: '{{ steps.publish.output.remoteUrl }}'
+    remoteUrl: '{{ steps.publish.output }}'
     entityRef: '{{ steps.register.output.entityRef }}'
