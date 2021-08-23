@@ -12,5 +12,5 @@ metadata:
     sentry.io/project-slug: testing-sentry-0
 spec:
   type: service
-  lifecycle: production
+  lifecycle: experimental
   owner: sahil.gulati1991@outlook.com
