@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test
-  description: This is the description for test
+  description: This is the description for test changed
   annotations:
     circleci.com/project-slug: github/sahil-gulati/backstage-demo
     github.com/project-slug: sahil-gulati/backstage-demo
@@ -11,6 +11,6 @@ metadata:
     backstage.io/techdocs-ref: url:https://github.com/Sahil-Gulati/backstage-demo/tree/main/
     sentry.io/project-slug: testing-sentry-0
 spec:
-  type: service
-  lifecycle: experimental
-  owner: sahil.gulati1991@outlook.com
+  type: api
+  lifecycle: production
+  owner: sahil.gulati@gelato.com
