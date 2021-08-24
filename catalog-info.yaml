@@ -11,6 +11,6 @@ metadata:
     backstage.io/techdocs-ref: url:https://github.com/Sahil-Gulati/backstage-demo/tree/main/
     sentry.io/project-slug: testing-sentry-0
 spec:
-  type: service
+  type: Service
   lifecycle: production
   owner: sahil.gulati1991@outlook.com
